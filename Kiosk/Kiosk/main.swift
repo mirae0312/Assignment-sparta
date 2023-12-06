@@ -2,7 +2,7 @@
 //  main.swift
 //  Kiosk
 //
-//  Created by mirae on 12/5/23.
+//  Created by mirae on 12/4/23.
 //
 //아래 메뉴판을 보시고 메뉴를 골라 입력해주세요.
 //
