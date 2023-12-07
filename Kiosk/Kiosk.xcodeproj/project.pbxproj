@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E4325222B21E16700484C04 /* ShackshackMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4325212B21E16700484C04 /* ShackshackMenu.swift */; };
+		2E4325242B21E18700484C04 /* Beer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4325232B21E18700484C04 /* Beer.swift */; };
+		2E4325262B21E1AF00484C04 /* Burgers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4325252B21E1AF00484C04 /* Burgers.swift */; };
+		2E4325282B21E1C900484C04 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4325272B21E1C900484C04 /* Common.swift */; };
+		2E43252A2B21E1E500484C04 /* FrozenCustard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4325292B21E1E500484C04 /* FrozenCustard.swift */; };
+		2E43252C2B21E1FB00484C04 /* Drinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E43252B2B21E1FB00484C04 /* Drinks.swift */; };
 		2EBB6B202B1F025D006D2FE6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBB6B1F2B1F025D006D2FE6 /* main.swift */; };
-		2EBB6B272B20A933006D2FE6 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBB6B262B20A933006D2FE6 /* Menu.swift */; };
-		2EBB6B292B20AF27006D2FE6 /* Burgers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBB6B282B20AF27006D2FE6 /* Burgers.swift */; };
-		2EBB6B2B2B20AF3F006D2FE6 /* Beer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBB6B2A2B20AF3F006D2FE6 /* Beer.swift */; };
-		2EBB6B2D2B20AF59006D2FE6 /* FrozenCustard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBB6B2C2B20AF59006D2FE6 /* FrozenCustard.swift */; };
-		2EBB6B2F2B20AF72006D2FE6 /* Drinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBB6B2E2B20AF72006D2FE6 /* Drinks.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,13 +29,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2E4325212B21E16700484C04 /* ShackshackMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShackshackMenu.swift; sourceTree = "<group>"; };
+		2E4325232B21E18700484C04 /* Beer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beer.swift; sourceTree = "<group>"; };
+		2E4325252B21E1AF00484C04 /* Burgers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Burgers.swift; sourceTree = "<group>"; };
+		2E4325272B21E1C900484C04 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		2E4325292B21E1E500484C04 /* FrozenCustard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrozenCustard.swift; sourceTree = "<group>"; };
+		2E43252B2B21E1FB00484C04 /* Drinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drinks.swift; sourceTree = "<group>"; };
 		2EBB6B1C2B1F025D006D2FE6 /* Kiosk */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Kiosk; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EBB6B1F2B1F025D006D2FE6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		2EBB6B262B20A933006D2FE6 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
-		2EBB6B282B20AF27006D2FE6 /* Burgers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Burgers.swift; sourceTree = "<group>"; };
-		2EBB6B2A2B20AF3F006D2FE6 /* Beer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beer.swift; sourceTree = "<group>"; };
-		2EBB6B2C2B20AF59006D2FE6 /* FrozenCustard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrozenCustard.swift; sourceTree = "<group>"; };
-		2EBB6B2E2B20AF72006D2FE6 /* Drinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drinks.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,11 +70,12 @@
 			isa = PBXGroup;
 			children = (
 				2EBB6B1F2B1F025D006D2FE6 /* main.swift */,
-				2EBB6B2A2B20AF3F006D2FE6 /* Beer.swift */,
-				2EBB6B262B20A933006D2FE6 /* Menu.swift */,
-				2EBB6B282B20AF27006D2FE6 /* Burgers.swift */,
-				2EBB6B2C2B20AF59006D2FE6 /* FrozenCustard.swift */,
-				2EBB6B2E2B20AF72006D2FE6 /* Drinks.swift */,
+				2E4325212B21E16700484C04 /* ShackshackMenu.swift */,
+				2E4325232B21E18700484C04 /* Beer.swift */,
+				2E4325252B21E1AF00484C04 /* Burgers.swift */,
+				2E4325272B21E1C900484C04 /* Common.swift */,
+				2E4325292B21E1E500484C04 /* FrozenCustard.swift */,
+				2E43252B2B21E1FB00484C04 /* Drinks.swift */,
 			);
 			path = Kiosk;
 			sourceTree = "<group>";
@@ -135,12 +138,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2EBB6B2F2B20AF72006D2FE6 /* Drinks.swift in Sources */,
-				2EBB6B2D2B20AF59006D2FE6 /* FrozenCustard.swift in Sources */,
-				2EBB6B292B20AF27006D2FE6 /* Burgers.swift in Sources */,
-				2EBB6B272B20A933006D2FE6 /* Menu.swift in Sources */,
+				2E43252A2B21E1E500484C04 /* FrozenCustard.swift in Sources */,
+				2E4325222B21E16700484C04 /* ShackshackMenu.swift in Sources */,
+				2E4325242B21E18700484C04 /* Beer.swift in Sources */,
+				2E4325262B21E1AF00484C04 /* Burgers.swift in Sources */,
+				2E4325282B21E1C900484C04 /* Common.swift in Sources */,
 				2EBB6B202B1F025D006D2FE6 /* main.swift in Sources */,
-				2EBB6B2B2B20AF3F006D2FE6 /* Beer.swift in Sources */,
+				2E43252C2B21E1FB00484C04 /* Drinks.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
